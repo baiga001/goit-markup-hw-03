@@ -1,0 +1,238 @@
+:root{
+    --main-font: 'Roboto',sans-serif;
+    --secondary-font: 'Raleway',sans-serif;
+    --header-color: #212121;
+    --description-section-color: #757575;
+    --dark-background-color: #2F303A;
+    --btn-main-background-color: #F5F4FA;
+    --btn-hover-focus-back-color:#2196F3;
+}
+.link{
+    text-decoration: none;
+}
+.list{
+    list-style: none;
+}
+body{
+    font-family: var(--main-font)
+}
+/* =============== COMPONENTS =============== */
+.logo-link{
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    
+    color: #2196F3;
+}
+.hero-section-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background-color: var(--btn-main-background-color);
+
+    color: #212121;
+}
+.hero-section-btn:hover,
+.hero-section-btn:focus{
+    background-color: var(--btn-hover-focus-back-color);
+    color: #FFFFFF;
+}
+.navigation .link-current{
+    color: #2196F3;
+}
+/* =============== /COMPONENTS =============== */
+
+/* =============== HEADER =============== */
+.second-part-logo-header {
+    font-family: var(--secondary-font);
+    color: #000000;
+}
+.menu-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    
+    color: #212121;
+}
+.menu-link:hover,
+.menu-link:focus{
+    color: #2196F3;
+}
+.mail-header{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    
+    color: #757575;
+}
+.mail-header:hover,
+.mail-header:focus {
+    color: #2196F3;
+}
+.tel-number-header{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    
+    color: #757575;
+}
+.tel-number-header:hover,
+.tel-number-header:focus {
+    color: #2196F3;
+}
+/* =============== /HEADER =============== */
+
+/* =============== HERO =============== */
+.hero-section{
+    background: var(--dark-background-color)
+}
+.hero-section-header{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+.studio-hero-section-btn{
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    
+    color: #FFFFFF;
+}
+.studio-hero-section-btn{
+    background-color: #2196F3;
+}
+.studio-hero-section-btn:hover,
+.studio-hero-section-btn:focus{
+    background-color: #188CE8;
+}
+/* =============== /HERO =============== */
+
+/* =============== НАШИ ПРЕИМУЩЕСТВА =============== */
+.advantages-section{}
+.advantages-section-header{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: #212121;
+}
+/* =============== /НАШИ ПРЕИМУЩЕСТВА =============== */
+.section-header{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: var(--header-color)
+
+}
+.section-description{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    
+    color: var(--description-section-color)
+}
+
+/* =============== ЧЕМ МЫ ЗАНИМАЕМСЯ =============== */
+.our-job-section{}
+/* =============== /ЧЕМ МЫ ЗАНИМАЕМСЯ =============== */
+
+/* =============== НАША КОМАНДА =============== */
+.our-team-section{
+    background-color: #F5F4FA;
+}
+.our-team-section-name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+}
+.our-team-section-dsc{
+    font-size: 16px;
+    line-height: 1.19;
+    
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #757575;
+}
+/* =============== /НАША КОМАНДА =============== */
+
+/* =============== ФУТЕР =============== */
+.footer{
+    background: var(--dark-background-color)
+}
+.second-part-logo-footer {
+    font-family: var(--secondary-font);
+    color: #FFFFFF;
+}
+.address-link{
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    
+    color: #FFFFFF;
+}
+.mail-footer{
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    
+    color: rgba(255, 255, 255, 0.6);
+}
+.tel-number-footer{
+        font-style: normal;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        
+        color: rgba(255, 255, 255, 0.6);
+}
+/* =============== /ФУТЕР =============== */
+
+
+/* =============== PORTFOLIO =============== */
+.portfolio-section-header{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    
+    color: #212121;
+}
+.portfolio-section-description{
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    
+    color: #757575;
+}
+/* =============== /PORTFOLIO =============== */
