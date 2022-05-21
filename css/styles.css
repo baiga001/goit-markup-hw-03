@@ -145,7 +145,10 @@ body{
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    
+    max-width: 696px;
+    padding-top: 200px;
+    margin: 0 auto 30px;
+  
     color: #FFFFFF;
 }
 .studio-hero-section-btn{
@@ -159,6 +162,8 @@ body{
     letter-spacing: 0.06em;
     padding: 8px 30px;
     border-radius: 4px 4px 4px 4px;
+    margin: auto;
+    margin-bottom: 200px;
     
     color: #FFFFFF;
 }
@@ -189,7 +194,7 @@ body{
 }
 .advantages-section-list-item{
         margin-right: 30px;
-        flex-basis: calc((100%-120px) / 4));
+        flex-basis: calc(100%-120px) / 4);
 }
 .section-header{
     font-weight: 700;
@@ -218,7 +223,7 @@ body{
 .our-job-section-list-item{
     display: block;
     margin-right: 30px;
-    flex-basis: calc((100%-90px) / 3));
+    flex-basis: calc(100%-90px) / 3);
 }
 /* =============== /ЧЕМ МЫ ЗАНИМАЕМСЯ =============== */
 
@@ -255,15 +260,13 @@ body{
 }
 .our-team-section-list-item{
     margin-right: 30px;
-    flex-basis: calc((100%-120px) / 4));
+    flex-basis: calc(100%-120px) / 4);
 }
 .our-team-section-wrapper{
     border: 1px solid #ccc;
     border-radius: 0px 0px 4px 4px;
     padding-top: 30px;
     padding-bottom: 30px;
-    padding-left: auto;
-    padding-right: auto;
 }
 /* =============== /НАША КОМАНДА =============== */
 
@@ -319,7 +322,7 @@ body{
 .portfolio-section-list-item:not(:nth-child(3n)){
     margin-right: 30px;
     margin-bottom: 30px;
-    flex-basis: calc((100%-90px) / 3));
+    flex-basis: calc(100%-90px) / 3);
 }
 .portfolio-section-header{
     font-weight: 700;
