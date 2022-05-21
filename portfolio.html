@@ -9,12 +9,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
     <!--Шапка страницы-->
     <header class="header">
+        <div class="container header-container">
         <a class="logo-link link" href="Логотип-студий">Web<span class="second-part-logo-header">Studio</span></a>
         <nav class="navigation">
             <ul class="menu-list list">
@@ -30,12 +34,14 @@
             <li class="menu-contacs-list-item"><a class="tel-number-header link" href="tel:+380961111111">+38 096 111 11
                     11</a></li>
         </ul>
+        </div>
     </header>
 
     <!--Содержание страницы-->
     <main>
         <section>
             <!--Список с кнопками-->
+            <div class="container">
             <ul class="portfolio-btns-section list">
                 <li><button class="hero-section-btn" type="button">Все</button></li>
                 <li><button class="hero-section-btn" type="button">Веб-сайты</button></li>
@@ -43,65 +49,67 @@
                 <li><button class="hero-section-btn" type="button">Дизайн</button></li>
                 <li><button class="hero-section-btn" type="button">Маркетинг</button></li>
             </ul>
+            </div>
             <!--Список с карточками-->
-            <ul class="portfolio-section list">
-                <li>
+            <div class="container">
+            <ul class="portfolio-section list section">
+                <li class="portfolio-section-list-item">
                     <a class="link" href="">
                     <img src="./images/portfolio/techno.jpg" alt="Технокряк" width="320">
                     <h3 class="portfolio-section-header">Технокряк</h3>
                     <p class="portfolio-section-description">Веб-сайт</p>
                     </a>
                 </li>
-                <li>
+                <li class="portfolio-section-list-item">
                     <a class="link" href="">
                     <img src="./images/portfolio/sport.jpg" alt="Постер New Orlean vs Golden Star" width="320">
                     <h3 class="portfolio-section-header">Постер <span lang="en">New Orlean vs Golden Star</span></h3>
                     <p class="portfolio-section-description">Дизайн</p>
                     </a>
                 </li>
-                <li>
+                <li class="portfolio-section-list-item">
                     <a class="link" href="">
                     <img src="./images/portfolio/seafood.jpg" alt="Ресторан Seafood" width="320">
                     <h3 class="portfolio-section-header">Ресторан <span lang="en">Seafood</span></h3>
                     <p class="portfolio-section-description">Приложение</p>
                     </a>
                 </li>
-                <li>
+                <li class="portfolio-section-list-item">
                     <a class="link" href="">
                     <img src="./images/portfolio/prime.jpg" alt="Проект Prime" width="320">
                     <h3 class="portfolio-section-header">Проект <span lang="en">Prime</span></h3>
                     <p class="portfolio-section-description">Маркетинг</p>
                     </a>
                 </li>
-                <li>
+                <li class="portfolio-section-list-item">
                     <a class="link" href="">
                     <img src="./images/portfolio/boxes.jpg" alt="Проект Boxes" width="320">
                     <h3 class="portfolio-section-header">Проект <span lang="en">Boxes</span></h3>
                     <p class="portfolio-section-description">Приложение</p>
                     </a>
                 </li>
-                <li>
+                <li class="portfolio-section-list-item">
                     <a class="link" href="">
                     <img src="./images/portfolio/no-borders.jpg" alt="Inspiration has no Borders" width="320">
                     <h3 class="portfolio-section-header" lang="en">Inspiration has no Borders</h3>
                     <p class="portfolio-section-description">Веб-сайт</p>
                     </a>
                 </li>
-                <li>
+                <li class="portfolio-section-list-item">
                     <a class="link" href="">
                     <img src="./images/portfolio/limited-edition.jpg" alt="Издание Limited Edition" width="320">
                     <h3 class="portfolio-section-header">Издание <span lang="en">Limited Edition</span></h3>
                     <p class="portfolio-section-description">Дизайн</p>
                     </a>
                 </li>
-                <li>
+                <li class="portfolio-section-list-item">
                     <a class="link" href="">
                     <img src="./images/portfolio/lab.jpg" alt="Проект LAB" width="320">
                     <h3 class="portfolio-section-header">Проект <span lang="en">LAB</span></h3>
                     <p class="portfolio-section-description">Маркетинг</p>
                     </a>
                 </li>
-                <li>
+                <li class="portfolio-section-list-item">
                     <a class="link" href="">
                     <img src="./images/portfolio/business.jpg" alt="Growing Business" width="320">
                     <h3 class="portfolio-section-header" lang="en">Growing Business</h3>
@@ -109,11 +117,13 @@
                     </a>
                 </li>
             </ul>
+            </div>
         </section>
     </main>
 
     <!--Подвал страницы-->
     <footer class="footer">
+        <div class="container">
         <a class="logo-link link" href="Логотип-студий">Web<span class="second-part-logo-footer">Studio</span></a>
         <address class="address">
             <ul class="footer-list list">
@@ -129,6 +139,7 @@
                 </li>
             </ul>
         </address>
+        </div>
     </footer>
 </body>
 </html>

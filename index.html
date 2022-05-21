@@ -9,12 +9,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" href="./css/styles.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css"> 
 </head>
 
 <body>  
     <!--Шапка страницы-->
     <header class="header">
+        <div class="container header-container">
         <a class="logo-link link" href="Логотип-студий">Web<span class="second-part-logo-header">Studio</span></a>
         <nav class="navigation">
         <ul class="menu-list list">
@@ -27,17 +31,21 @@
             <li class="menu-contacs-list-item"><a class="mail-header link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
             <li class="menu-contacs-list-item"><a class="tel-number-header link" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
+        </div>
     </header>
 
     <!--Содержание страницы-->
     <main class="main-section">
         <!--Основная секция-->
-        <section class="hero-section">
+        <section class="hero-section section">
+            <div class="container">
             <h1 class="hero-section-header">Эффективные решения для вашего бизнеса</h1>
             <button class="studio-hero-section-btn" type="button">Заказать услугу</button>
+            </div>
         </section>
         <!--Наши преимущества-->
-        <section class="advantages-section">
+        <section class="advantages-section section">
+            <div class="container">
             <ul class="advantages-section-list list">
                 <li class="advantages-section-list-item">
                 <h3 class="advantages-section-header">Внимание к деталям</h3>
@@ -56,9 +64,11 @@
                 <p class="section-description">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
+            </div>
         </section>
         <!--Чем мы занимаемся-->
-        <section class="our-job-section">
+        <section class="our-job-section section">
+            <div class="container">
             <h2 class="section-header">Чем мы занимаемся</h2>
             <ul class="our-job-section-list list">
                 <li class="our-job-section-list-item"><img class="our-job-section-img" src="./images/our-job/image_1.jpg" 
@@ -68,36 +78,48 @@
                 <li class="our-job-section-list-item"><img class="our-job-section-img" src="./images/our-job/image_3.jpg" 
                     alt="компьютерный дизайн" width="370"></li>
             </ul>
+            </div>
         </section>
         <!--Наша команда-->
-        <section class="our-team-section">
+        <section class="our-team-section section">
+            <div class="container">
             <h2 class="section-header">Наша команда</h2>
             <ul class="our-team-section-list list">
                 <li class="our-team-section-list-item">
                     <img class="our-team-section-img" src="./images/our-team/1.jpg" alt="Product Designer" width="270">
+                    <div class="our-team-section-wrapper">
                     <h3 class="our-team-section-name">Игорь Демьяненко</h3>
                     <p class="our-team-section-dsc">Product Designer</p>
+                    </div>
                 </li>
                 <li class="our-team-section-list-item">
                     <img class="our-team-section-img" src="./images/our-team/2.jpg" alt="Frontend Developer" width="270">
+                    <div class="our-team-section-wrapper">
                     <h3 class="our-team-section-name">Ольга Репина</h3>
                     <p class="our-team-section-dsc">Frontend Developer</p>
+                    </div>
                 </li>
                 <li class="our-team-section-list-item">
                     <img class="our-team-section-img" src="./images/our-team/3.jpg" alt="Marketing" width="270">
+                    <div class="our-team-section-wrapper">
                     <h3 class="our-team-section-name">Николай Тарасов</h3>    
                     <p class="our-team-section-dsc">Marketing</p>
+                    </div>
                 <li class="our-team-section-list-item">
                     <img class="our-team-section-img" src="./images/our-team/4.jpg" alt="UI Designer" width="270">
+                    <div class="our-team-section-wrapper">
                     <h3 class="our-team-section-name">Михаил Ермаков</h3>
                     <p class="our-team-section-dsc">UI Designer</p>
+                    </div>
                 </li>
             </ul>
+            </div>
         </section>
     </main>
 
     <!--Подвал страницы-->
     <footer class="footer">
+        <div class="container">
         <a class="logo-link link" href="Логотип-студий">Web<span class="second-part-logo-footer">Studio</span></a>
             <address class="address">
                 <ul class="footer-list list">
@@ -115,6 +137,7 @@
                     </li>
                 </ul>
             </address>
+        </div>
     </footer>
 </body>
 </html>
