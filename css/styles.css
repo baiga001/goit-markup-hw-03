@@ -189,7 +189,7 @@ body{
 }
 .advantages-section-list-item{
         margin-right: 30px;
-        flex-basis: calc((100%-120px) / 4);
+        flex-basis: calc((100%-120px) / 4));
 }
 .section-header{
     font-weight: 700;
@@ -216,12 +216,16 @@ body{
     margin-right: -30px;
 }
 .our-job-section-list-item{
-     margin-right: 30px;
-    flex-basis: calc((100%-90px) / 3);
+    display: block;
+    margin-right: 30px;
+    flex-basis: calc((100%-90px) / 3));
 }
 /* =============== /ЧЕМ МЫ ЗАНИМАЕМСЯ =============== */
 
 /* =============== НАША КОМАНДА =============== */
+.our-team-section-img{
+    display: block;
+}
 .our-team-section{
     background-color: #F5F4FA;
 }
@@ -251,13 +255,15 @@ body{
 }
 .our-team-section-list-item{
     margin-right: 30px;
-    flex-basis: calc((100%-120px) / 4);
+    flex-basis: calc((100%-120px) / 4));
 }
 .our-team-section-wrapper{
     border: 1px solid #ccc;
     border-radius: 0px 0px 4px 4px;
     padding-top: 30px;
     padding-bottom: 30px;
+    padding-left: auto;
+    padding-right: auto;
 }
 /* =============== /НАША КОМАНДА =============== */
 
@@ -297,6 +303,9 @@ body{
 
 
 /* =============== PORTFOLIO =============== */
+.portfolio-section-list-img{
+    display: block;
+}
 .portfolio-btns-section{
     display: flex;
     align-items: center;
@@ -305,16 +314,19 @@ body{
     display: flex;
     flex-wrap: wrap;
     margin-right: -30px;
+    margin-bottom: -30px;
 }
 .portfolio-section-list-item:not(:nth-child(3n)){
     margin-right: 30px;
-    flex-basis: calc((100%-90px) / 3);
+    margin-bottom: 30px;
+    flex-basis: calc((100%-90px) / 3));
 }
 .portfolio-section-header{
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    padding-bottom: 4px;
     
     color: #212121;
 }
@@ -324,5 +336,12 @@ body{
     letter-spacing: 0.03em;
     
     color: #757575;
+}
+.portfolio-section-list-wrapper{
+    border: 1px solid #EEEEEE;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 /* =============== /PORTFOLIO =============== */
