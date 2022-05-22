@@ -290,10 +290,23 @@ body{
 
 /* =============== ФУТЕР =============== */
 .footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
     background: var(--dark-background-color)
 }
-.second-part-logo-footer {
+.logo-link-footer{
     font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    display: block;
+    margin-bottom: 20px;
+    
+    color: #2196F3;
+}
+.second-part-logo-footer {
+    font-family: var(--secondary-font); 
     color: #FFFFFF;
 }
 .address-link{
@@ -301,6 +314,7 @@ body{
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    margin-bottom: 9px;
     
     color: #FFFFFF;
 }
@@ -309,6 +323,7 @@ body{
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    margin-bottom: 9px;
     
     color: rgba(255, 255, 255, 0.6);
 }
