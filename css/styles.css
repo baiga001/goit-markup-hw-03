@@ -212,9 +212,16 @@ body{
     margin-right: 30px;
     flex-basis: calc(100%-120px) / 4);
 }
+.section-description {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    color: var(--description-section-color)
+}
 /* =============== /НАШИ ПРЕИМУЩЕСТВА =============== */
 
-
+/* =============== ЧЕМ МЫ ЗАНИМАЕМСЯ =============== */
 .section-header{
     font-weight: 700;
     font-size: 36px;
@@ -226,17 +233,6 @@ body{
     color: var(--header-color)
 
 }
-.section-description{
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    
-    color: var(--description-section-color)
-}
-
-
-
-/* =============== ЧЕМ МЫ ЗАНИМАЕМСЯ =============== */
 .our-job-section-list{
     display: flex;
     margin-right: -30px;
@@ -253,6 +249,7 @@ body{
     display: block;
 }
 .our-team-section{
+    padding-top: 94px;
     background-color: #F5F4FA;
 }
 .our-team-section-name{
